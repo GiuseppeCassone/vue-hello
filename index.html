@@ -11,7 +11,9 @@
     <script src="https://unpkg.com/vue@3"></script>
 
     <div id="app">
-
+        <h1>
+            {{ saluto }}
+        </h1>
     </div>
 
     <script>
@@ -21,7 +23,7 @@
             data() {
                 return {
                     // tutti i nostri dati
-                    
+                    saluto: "HELLO WORLD!"
                 }
             }
         }).mount("#app");
